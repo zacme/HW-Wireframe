@@ -94,20 +94,14 @@ nav a:first-child {
 .main-section {
   background: #fff;
   padding: 30px;
-  margin 0 0 40px 0;
+  margin: 0 0 40px 0;
   width: 100%;
   max-width: 650px;
   float: left;
-  border 1px solid #ddd;
+  border: 1px solid #ddd;
 }
 
-.auth-image {
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  float: left;
-  margin-right: 25px;
-}
+
 
 /*sidebar*/
 .sidebar {
@@ -134,7 +128,7 @@ h3, .sidebar, h2 {
   margin-right: 5px;
 }
 
-.social: :last-child {
+.social:last-child {
   margin-right: 0;
 }
 
@@ -150,3 +144,20 @@ footer {
   text-align: center;
 }
 
+/*contact*/
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label, 
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%
+}
